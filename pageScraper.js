@@ -48,7 +48,7 @@ const scraperObject = {
 			}
 
 			newPage.close();
-			await page.waitForTimeout(5000)
+			await page.waitForTimeout(30000)
 			await scrapeCurrentPage();
 
 		}
