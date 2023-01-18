@@ -1,0 +1,17 @@
+{
+  "name": "wallapop-scraper",
+  "version": "1.0.0",
+  "description": "a web scraper for wallapop.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "juan hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "puppeteer": "^19.5.2"
+  }
+}
